@@ -1,0 +1,70 @@
+        body {
+            font-family: cursive;
+            background-color: #553617;
+        }
+        
+        div.back {
+            border-radius: 0.36cm;
+            text-align: center;
+            margin: 6vw;
+            background-color: #94e6ff;
+        }
+        
+        header {
+            background-color: #9ae384;
+            text-align: center;
+            border-radius: 15px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+        
+        nav {
+            text-align: center;
+            background-color: aquamarine;
+            margin: 2vw;
+            padding: 1px;
+            border-radius: 5px;
+            border-width: thick;
+            border-style: solid;
+            border-color: darkmagenta;
+        }
+        
+        h3 {
+            text-align: center;
+            background-color: #8000ff;
+            border-radius: 15px;
+            padding: 3px;
+            color: floralwhite;
+        }
+        
+        section,
+        article {
+            text-align: justify;
+            border-radius: 15px;
+            margin: 1vh;
+            font-size: 18px;
+        }
+        
+        form {
+            text-align: center;
+            border-width: thick;
+            border-style: dashed;
+            border-color: firebrick;
+        }
+        
+        .atv {
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        li.nav {
+            display: inline;
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        
+        li.nav:hover {
+            background-color: #18c948
+        }
