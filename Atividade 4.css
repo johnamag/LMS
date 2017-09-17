@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-fixo{
+    font-family: verdana;
+    background-color: #6a0b92;
+    font-size: 20px;
+    letter-spacing: 4px;
+    box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
+}
+
+.nav-fixo > ul > li:hover{
+    background-color: blue;
+}
+
+.nav-fixo ul > li{
+    display: inline-block;
+}
+
+.nav-fixo > ul > li > a, .drop-botau, .dropdown-content > ul > li > a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-fixo > ul > li > a, .drop-botau{
+    padding: 16px;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: #6a0b92;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.dropdown-content > ul > li > a{
+    padding: 13px;
+    padding-right: 45px;
+}
+
+.dropdown-content > ul > li:hover {
+    background-color: blueviolet;
+}
+
+.nav-lateral{
+    font-family: verdana;
+}
+.nav-lateral > ul > p{
+    font-size: 20px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+.nav-lateral{
+    font-size: 16px;
+    box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.2);
+}
+
+.nav-lateral > ul > li{
+    padding: 5px;
+}
+
+.nav-lateral > ul{
+    padding-left: 4px;
+    margin: 6px;
+}
+
+.nav-lateral > ul > li:hover{
+    background-color:#c9c9c9;
+}
+
+
+.nav-lateral > ul > li > a{
+    text-decoration: none;
+    color: black;
+    padding-right: 140px;
+}
