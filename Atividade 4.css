@@ -3,24 +3,34 @@
     padding: 0;
 }
 
-header{
-    padding: 3px;
-    padding-left: 8px;
+.slogan{
+    transform: translate(850px, -12px);
+    letter-spacing: 4px;
+    font-size: 14px;
     font-family: verdana;
-    font-size: 13px;
-    color: darkblue;
+}
+.logo {
+    transform: translate(4px, 20px);
 }
 
 .nav-fixo{
-    font-family: verdana;
-    background-color: #6a0b92;
-    font-size: 20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    background-color: #4CAF50;
+    font-size: 17px;
     letter-spacing: 4px;
     box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
 }
 
 .nav-fixo > ul > li:hover{
-    background-color: blue;
+    background-color: white;
+}
+
+.nav-fixo > ul > li > a:hover{
+    color: black;
+}
+
+.drop-botau:hover{
+    color: black;
 }
 
 .nav-fixo ul > li{
@@ -33,17 +43,19 @@ header{
     cursor: pointer;
     display: block;
     list-style: none;
-    padding: 5px;
+}
+
+.dropdown-content > ul > li > a{
+    color: #121212;
 }
 
 .nav-fixo > ul > li > a, .drop-botau{
-    padding: 16px;
+    padding: 17px;
 }
 
 .dropdown-content{
     position: absolute;
     display: none;
-    background-color: #6a0b92;
 }
 
 .dropdown{
@@ -52,48 +64,48 @@ header{
 
 .dropdown:hover .dropdown-content{
     display: block;
-    background-color: dodgerblue;
-    padding: 10px;
+    background-color: #dddddd;
 }
 
 .dropdown-content > ul > li > a{
-    padding: 13px;
-    padding-right: 45px;
+    padding: 6px;
+    padding-right: 60px; 
+    padding-left: 16px; 
 }
 
 .dropdown-content > ul > li:hover {
-    background-color: blueviolet;
+    background-color: #b4b4b4;
 }
 
-.nav-lateral{
+.espaco-nav{
     font-family: verdana;
 }
-.nav-lateral > ul > p{
+.espaco-nav > ul > p{
     font-size: 20px;
     padding-bottom: 13px;
     padding-top: 13px;
 }
-.nav-lateral{
+.espaco-nav{
     font-size: 16px;
-    box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 11px 0px rgba(0,0,0,0.2);    
 }
 
-.nav-lateral > ul > li{
+.espaco-nav > ul{
+    padding-left: 15px;
+    padding-top: 7px;
+    list-style: none;
+}
+
+.espaco-nav > ul > li{
     padding: 5px;
 }
 
-.nav-lateral > ul{
-    padding-left: 4px;
-    margin: 6px;
-}
-
-.nav-lateral > ul > li:hover{
+.espaco-nav > ul > li:hover{
     background-color:#c9c9c9;
 }
 
-
-.nav-lateral > ul > li > a{
+.espaco-nav > ul > li > a{
     text-decoration: none;
     color: black;
-    padding-right: 140px;
+    padding-right: 130px;
 }
