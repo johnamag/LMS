@@ -11,6 +11,7 @@
 }
 .logo {
     transform: translate(4px, 20px);
+    cursor: pointer;
 }
 
 .nav-fixo{
