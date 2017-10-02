@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+header {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.header1{
+    padding-bottom: 10px;
+}
+
+a, li, button{
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: background-color 200ms;
+}
+.nav1{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.dropdown3>button,
+.dropdown2>button, 
+.dropdown1>button {
+    list-style: none;
+    border: none;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+.dropdown3,
+.dropdown2, 
+.dropdown1 {
+    transition: max-height 8s;
+}
+
+.nav1>li {
+    display: inline-block;
+}
+
+.dropcontent3>ul>li, 
+.dropcontent2 > ul > li, 
+.dropcontent1 > ul > li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.dropcontent3>ul>li>a, 
+.dropcontent2 > ul > li>a, 
+.dropcontent1 > ul > li>a{
+    padding: 10px;
+}
+
+.nav1>li>button>a,
+.dropdown3>button,
+.dropdown2>button,
+.dropdown1>button{
+    padding: 20px;
+    display: block;
+}
+
+.dropdown3>button:hover,
+.dropdown2>button:hover,
+.dropdown1>button:hover,
+
+.dropcontent3>ul>li:hover,
+.dropcontent2>ul>li:hover,
+.dropcontent1>ul>li:hover {
+    background-color: white;
+    display: block;
+}
+
+.nav-direito>ul>li:hover {
+    background-color: aquamarine;
+    display: block;
+}
+
+.dropcontent3,
+.dropcontent2,
+.dropcontent1{
+    
+    width: 130px;
+    display: none;
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.dropdown3:hover .dropcontent3, 
+.dropdown2:hover .dropcontent2, 
+.dropdown1:hover .dropcontent1{
+    display: block;
+    background-color: aquamarine;
+    max-height: 300px;
+    transition: max-height 1s;
+}
+
+    
+.nav-direito {
+    font-size: 20px;
+    float: right;
+    height: 600px;
+    width: 300px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.nav-esquerdo{
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+}
+
+.nav-direito h4,.nav-esquerdo h4{
+    padding: 5px;
+}
+
+.nav-direito ul,.nav-esquerdo ul{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.nav-esquerdo ul li a{
+    background-color: aquamarine;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.nav-esquerdo ul li a:hover{
+    background-color: #68c9a9;
+    transition: background-color 400ms;
+}
+
+.conteudo img{width: 150px;}
+
+.conteudo{
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    animation-name: kermit;
+    animation: kermit 5s infinite linear;
+}
+
+@keyframes kermit{
+    0%{top:0px; left: 0px;}
+    
+    25%{top: 0px; left: 600px;}
+    
+    50%{top:300px; left: 600px;}
+    
+    75%{top:300px; left: 0px;}
+       
+    100%{transform: rotate(360deg); top:0px;}
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .nav-direito, .nav-esquerdo, .conteudo{
+        float: inherit;
+    }
+    
+    .nav-direito, .nav-esquerdo{width: 100%; }
+    .nav-esquerdo > ul > li > a{width: 98%;}
+    .conteudo{width: 5px; height: 5px; }
+}
+
+    
+ 
