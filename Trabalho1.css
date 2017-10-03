@@ -84,7 +84,6 @@ a, li, button{
 .dropcontent1{
     
     width: 130px;
-    display: none;
     position: absolute;
     max-height: 0px;
     overflow: hidden;
@@ -107,6 +106,7 @@ a, li, button{
     width: 300px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
     text-align: center;
+    background: linear-gradient(white,aquamarine);
 }
 
 .nav-esquerdo{
