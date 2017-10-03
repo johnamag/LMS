@@ -152,11 +152,11 @@ a, li, button{
 @keyframes kermit{
     0%{top:0px; left: 0px;}
     
-    25%{top: 0px; left: 600px;}
+    25%{top: 0px; left: 300px;}
     
-    50%{top:300px; left: 600px;}
+    50%{top:150px; left: 300px;}
     
-    75%{top:300px; left: 0px;}
+    75%{top:150px; left: 0px;}
        
     100%{transform: rotate(360deg); top:0px;}
     
@@ -170,7 +170,7 @@ a, li, button{
     
     .nav-direito, .nav-esquerdo{width: 100%; }
     .nav-esquerdo > ul > li > a{width: 98%;}
-    .conteudo{width: 5px; height: 5px; }
+    .conteudo{width: 300px; height: 300px; }
 }
 
     
