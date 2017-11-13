@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.cabeca{
+    position: relative;
+}
+
+.cabeca > header > span{
+    display: block;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 4px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.cabeca > header > h2{
+    padding: 6px;
+}
+
+.cabeca > header > h2 > button{
+    margin: 0;
+    border: 0;
+    border-radius: 4px;
+    background-color:rebeccapurple;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    float: right;
+}
+
+.cabeca{
+    background-color:#eeeeee;
+    padding: 5px;
+}
+
+.corpo{
+    background-color: white;
+    height: 100vh;
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+.msgs{
+    background-color: white;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.msgs ul li{
+    border: 2px solid purple;
+    list-style: none;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.migs{
+    background-color: mediumpurple;
+    height: calc(100vh - 35px);
+    width: 200px;
+    float: left;
+}
+
+.corpo > h3{ 
+    color: white;
+    text-align: enter;
+    border: 2px solid white;
+    padding: 5px;
+    background-color:mediumpurple;
+}
+
+.migs li{
+    padding: 3px;
+    list-style: none;
+    color: white;
+    border-bottom: 1px solid;
+    text-align: center;
+    cursor: pointer;
+}
+
+.migs li img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
